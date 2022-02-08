@@ -3,13 +3,14 @@
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
+  min-height: 100vh; 
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  justify-content: flex-start;
+    padding-top: 3rem;
 }
 
 .footer {
@@ -114,3 +115,15 @@
     flex-direction: column;
   }
 }
+
+.mainnav ul{
+  display: flex;
+  justify-content: center;
+    margin-top: 50px;
+}
+
+.mainnav ul li{
+  margin: 0 24px;
+    list-style: none;
+    font-weight: bold;
+} 

@@ -156,3 +156,14 @@
   margin: 16px 0;
     margin-top: 3px;
 }
+
+
+@media only screen and (max-width: 600px) {
+  
+    .mainnav ul li{
+      margin: 0 6px;
+        list-style: none;
+        font-weight: bold;
+     
+  }
+}

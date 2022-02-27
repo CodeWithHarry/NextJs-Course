@@ -11,7 +11,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(phone, name, email, desc)
     const data = {phone, name, email, desc};
 
     fetch('http://localhost:3000/api/postcontact', {
@@ -23,7 +22,6 @@ const Contact = () => {
     })
       .then(response => response.text())
       .then(data => {
-        console.log('Success:', data);
         alert("Thanks for contacting us");
         setphone('')
         setname('')
@@ -63,7 +61,7 @@ const Contact = () => {
         <div id="emailHelp" className={styles.formtext}>We'll never share your email with anyone else.</div>
       </div>
       <div className={styles.mb3}>
-        <label htmlFor="phone" className={styles.formlabel}>Password</label>
+        <label htmlFor="phone" className={styles.formlabel}>Phone</label>
         <input className={styles.input} type="phone" value={phone} onChange={handleChange} name='phone' id="phone" required />
       </div>
       <div className={styles.mb3}>

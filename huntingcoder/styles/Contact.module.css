@@ -36,3 +36,11 @@
       font-size: 12px;
       margin-bottom: 9px; 
   }
+
+
+@media only screen and (max-width: 600px) {
+    .container{
+        max-width: 88vw;
+        margin: auto;
+    }
+}

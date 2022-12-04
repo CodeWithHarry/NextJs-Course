@@ -11,4 +11,20 @@
 
 .blogItemh3{
     cursor: pointer;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
 }
+.blogItemp{
+    max-width: 45vw;
+}
+
+.btn{
+    color: white;
+      background: rgb(34, 34, 34);
+      padding: 7px 6px;
+      cursor: pointer;
+      border-radius: 6px;
+      font-size: 12px;
+      margin-bottom: 9px; 
+  }

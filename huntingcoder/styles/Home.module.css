@@ -43,17 +43,12 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 1.5rem;
 }
 
 .title,
 .description {
   text-align: center;
-}
-
-.description { 
-  line-height: 1.5;
-  font-size: 1.5rem;
 }
 
 .code {
@@ -128,9 +123,47 @@
 } 
 
 .myImg{
-  border-radius: 10px; 
+  width: 157px;
+  border-radius: 92px; 
 }
 
 .imagewrap{
-  padding: 30px 0px;
+  padding: 15px 0px;
+}
+
+.h2{
+  font-size: 2.5rem;
+}
+
+.h3{
+  font-size: 1.75rem;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 11px;
+}
+
+.btn{
+  color: white;
+    background: black;
+    padding: 7px 6px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 12px;
+    margin-bottom: 9px; 
+}
+
+.p{
+  margin: 16px 0;
+    margin-top: 3px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+    .mainnav ul li{
+      margin: 0 6px;
+        list-style: none;
+        font-weight: bold;
+     
+  }
 }
